@@ -1,5 +1,81 @@
 @charset "utf-8";
 
 body {
-  background-color: pink;
+  background-color: white;
+  margin: 0;
 }
+
+header {
+  background-color: #eee;
+  text-align: center;
+  padding: 32px 0;
+}
+
+header > div > img {
+  border-radius: 50%;
+}
+
+h1 {
+  margin: 0;  
+  font-weight: normal;
+  font-size: 24px;
+  margin-top: 16px;
+
+}
+
+p {
+  margin: 0;
+}
+
+h2 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 24px;
+  text-align: center;
+}
+
+main {
+  padding: 64px 0;
+}
+
+
+section {
+  width: 400px;
+  margin: 0 auto;
+  margin: 64px  auto 0;
+  /* 上　左右　下　の意味 */
+}
+
+
+h3 {
+  margin: 0;
+  font-weight: normal;
+  font-size: 20px;
+  margin-top: 16px;
+}
+
+section p {
+  margin-top: 16px;
+  line-height: 1.8;
+}
+
+footer {
+  text-align: center;
+  border-top: 1px solid #ccc;
+  padding: 64px 0;
+}
+
+small {
+  font-size: 14px;
+  color: #aaa;
+}
+
+a:hover {
+  opacity: .7;
+}
+
+address {
+  margin-top: 16px;
+}
+
+
